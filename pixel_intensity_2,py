@@ -29,11 +29,11 @@ camera.Open()
 
 camera.PixelFormat.SetValue("Mono8")
 
-# 🔥 MANUAL EXPOSURE (FIXED — IMPORTANT)
+# MANUAL EXPOSURE (FIXED — IMPORTANT)
 camera.ExposureAuto.SetValue("Off")
 camera.GainAuto.SetValue("Off")
 
-# 👉 Tune these based on your lab lighting
+# Tune these based on your lab lighting
 camera.ExposureTime.SetValue(20000.0)   # try 10000–30000
 camera.Gain.SetValue(2.0)               # try 0–5
 
